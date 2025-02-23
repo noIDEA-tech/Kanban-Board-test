@@ -11,6 +11,8 @@
 
 ## Screenshots
 ![app_image](/client/assets/main-page-image.png)
+![app_image](/client/assets/login-image1.png)
+![app_image](/client/assets/ticket-generator-image1.png)
 
 ## Table of Contents
 
