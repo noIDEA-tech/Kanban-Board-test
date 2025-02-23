@@ -28,7 +28,7 @@ class AuthService {
   
   getToken(): string | null {
     const token = localStorage.getItem('id_token');
-    // console.log('Retrieved token from storage:', token ? 'Token exists' : 'No token');
+    console.log('Retrieved token from storage:', token ? 'Token exists' : 'No token');
     return token;
   }
 
