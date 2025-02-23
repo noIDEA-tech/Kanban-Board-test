@@ -61,7 +61,7 @@ const createTicket = async (body: TicketData) => {
           },
         body: JSON.stringify(body)
       }
-
+      
     )
     const data = response.json();
 
