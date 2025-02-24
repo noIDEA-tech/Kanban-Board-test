@@ -16,7 +16,6 @@ const Login = () => {
       [name]: value
     });
   };
-  const [error, setError] = useState(''); // Add error state
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
@@ -25,7 +24,6 @@ const Login = () => {
       Auth.login(data.token);
     } catch (err) {
       console.error('Failed to login', err);
-      setError('Invalid credentials'); // Set error message
     }
   };
 
@@ -33,11 +31,6 @@ const Login = () => {
     <div className='container'>
       <form className='form' onSubmit={handleSubmit}>
         <h1>Login</h1>
-        {error && ( // Add error message display
-          <div style={{ color: 'red', marginBottom: '1rem' }}>
-            {error}
-          </div>
-        )}
         <label >Username</label>
         <input 
           type='text'
