@@ -1,5 +1,4 @@
-import { jwtDecode } from 'jwt-decode'; 
-import type { JwtPayload } from 'jwt-decode';
+import { jwtDecode, JwtPayload } from 'jwt-decode';
 
 interface CustomJwtPayload extends JwtPayload {
   username: string;
