@@ -6,7 +6,7 @@
  A full-stack application with JWT authentication. The Kanban Board is a secure web-based project management tool desgined to help production teams organize and manage workflow efficiently by creating "todo" tickets to track each team's progress.
 
 ## Websites: 
-- [deployed-link] [Your Render URL]
+- [deployed-link](https://kanban-board-test.onrender.com)
 - [github-link](https://github.com/noIDEA-tech/Kanban-Board-test)
 
 
@@ -52,6 +52,10 @@ Create user login
 - Create, read, update, and delete tasks
 - Drag-and-drop task management
 - Real-time updates
+
+## Issues encountered:
+- Proper routing for deployed application
+- Proper Environment Variables and Settings in Render
 
 ## Credits:
 - Nancy Watreas
