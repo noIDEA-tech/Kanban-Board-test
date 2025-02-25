@@ -11,11 +11,10 @@ const login = async (userInfo: UserLogin) => {
     });
 
     const data = await response.json();
-  
+
     if (!response.ok) {
       throw new Error(data.message || 'Login failed');
     }
-
     return data;
   } catch (error) {
     console.error('Login error:', error);
